@@ -13,7 +13,6 @@ public class Sensor {
     public Sensor(String location, double reading){
         if(reading>-50.0 && reading < 50.0) this.reading = reading;
         else this.reading = 0;
-        this.reading = reading;
     }
 
 }
